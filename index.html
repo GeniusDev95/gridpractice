@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       
+        .container{
+            margin: 0;
+            padding: 50px;
+            display: grid;
+            grid-template-areas: "sidebar header    header   menu"
+                                 "sidebar content1 content2 sidepara"
+                                 "sidebar content3 content4 sidepara"     
+            ;
+            grid-gap: 5px;
+            height: 500px;
+            /* grid-template-columns: repeat(auto-fill, 200px); */
+            /* justify-content: center; */
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201026/pngtree-futuristic-shape-abstract-background-chemistry-technology-concept-for-website-image_438818.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .header{
+            grid-area: header;
+            background-color: yellow;
+            text-align: center;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ba-hbtNLFuiW9aPtxqGsLsTPZNTTHATfDw&s);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .sidebar{
+            grid-area: sidebar; 
+            background-color: green;  
+            text-align: center;
+            background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20221004/pngtree-colorful-party-sidebar-celebration-decorative-background-photo-image_48656626.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .menu{
+            grid-area: menu;
+            background-color: aqua;
+            text-align: center;
+            background-image: url(https://c8.alamy.com/comp/R9EGCA/abstract-menu-background-with-knifes-and-forks-vector-illustration-round-empty-background-for-restaurant-menu-R9EGCA.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+
+        }
+        .content1{
+            grid-area: content1;
+            background-color: blue;
+            text-align: center;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGwVd07rcBUxKVqf17F_Li5fy-a_zni7JuEQ&s);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .content2{
+            grid-area: content2;
+            background-color: blueviolet;
+            text-align: center;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY0zrahPzhdd7-vYR1qa1oRQMpGgSudcGElHh3rDYLtSaDmKTFW-23CkZaaAwZv6tWYY8&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .content3{
+            grid-area: content3;
+            background-color: orange;
+            text-align: center;
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/566/706/469/the-elder-scrolls-v-skyrim-video-games-wallpaper-preview.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .content4{
+            grid-area: content4;
+            background-color:chocolate;
+            text-align: center;
+            background-image: url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .sidepara{
+            grid-area: sidepara;
+            background-color: skyblue;
+            text-align: center;
+            background-image: url(https://colibriwp.com/blog/wp-content/uploads/2021/06/5243028.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+<body>
+    <div  class="container">
+        <div  class="header">
+
+        </div>
+        <div  class="sidebar">
+
+        </div>
+        <div class="menu">
+
+        </div>
+        <div class="content1">
+
+        </div>
+        <div  class="content2">
+
+        </div>
+        <div  class="content3">
+
+        </div>
+        <div  class="content4">
+
+        </div>
+        <div  class="sidepara">
+
+        </div>
+        
+    </div>
+
+</body>
+</html>
